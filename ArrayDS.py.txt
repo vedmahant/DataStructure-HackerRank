@@ -1,0 +1,12 @@
+def reverseArray(A):
+    return A[::-1]  # Reverse the array using slicing
+
+# Read input
+N = int(input())  # Read the number of elements
+A = list(map(int, input().split()))  # Read the array elements
+
+# Get the reversed array
+reversed_A = reverseArray(A)
+
+# Print output in the required format
+print(*reversed_A)
